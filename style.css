@@ -1,0 +1,53 @@
+/* Container holding the image and the text */
+
+/* Bottom left text */
+
+/* Top left text */
+
+/* Top right text */
+body{
+  min-width: 640px;
+  height: auto ;
+}
+.top {
+  font-style: oblique;
+  font-weight: 600;
+  color: firebrick;
+  position: relative;
+  top: 16px;
+  right: 16px;
+  max-width: fit-content;
+}
+
+/* Bottom right text */
+.top-centered {
+  font-style: italic;
+  font-weight: 300;
+  color: crimson;
+  position: relative;
+  top: 20px;
+  left: 400px;
+  max-width: fit-content;
+}
+
+/* Centered text 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+.message {
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(3, 58, 48);
+  text-align: center;
+  position: relative;
+  top: 60px;
+  
+}
+
+.radio_bt {
+  font-size: large;
+}
